@@ -1,0 +1,10 @@
+
+# Kaggle raw data & secrets (do not commit)
+artifacts/test_transaction.csv
+artifacts/train_transaction.csv
+.kaggle/
+kaggle.json
+
+# General rule: don't commit CSVs, except the submission
+*.csv
+!artifacts/archie_submission.csv
